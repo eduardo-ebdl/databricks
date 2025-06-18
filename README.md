@@ -52,12 +52,16 @@ Seasonal Allergy       0.73      0.85      0.78       201
 
 The confusion matrix helps visualize the model's performance, showing where it made correct and incorrect predictions.
 
--> adicionar foto aqui
+![Confusion Matrix](https://github.com/eduardo-ebdl/databricks/blob/main/results/confusion_matrix.png)
 
 ### Feature Importance
 
 This chart illustrates which symptoms were most influential for the model's predictions.
 
+![Feature Importance](https://github.com/eduardo-ebdl/databricks/blob/main/results/symptom_importance.png)
 
--> adicionar foto aqui
+### Decision Tree
 
+To illustrate how the model makes decisions, the following image shows an example of a single decision tree from the Random Forest. It visualizes the flow of questions about symptoms that lead to a final diagnosis.
+
+![Decision Tree](https://github.com/eduardo-ebdl/databricks/blob/main/results/decision_tree.png)
